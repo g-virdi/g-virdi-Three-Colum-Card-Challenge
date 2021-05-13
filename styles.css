@@ -1,0 +1,72 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 95%);
+  margin-top: 2rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  /*border: none;*/
+  border-color: Transparent;
+  border-radius: 28px;
+  color: #000;
+  mix-blend-mode: screen; /*makes text same as background */
+}
+
+button:hover {
+  border: solid;
+  background-color: Transparent;
+  color: white;
+}
+
+.sedan {
+  padding: 3rem;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  padding: 3rem;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  padding: 3rem;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1024px) {
+  .large {
+    height: 100vh;
+    width: 33.3vw;
+    display: inline-block;
+    margin: -5px;
+    padding: 5rem;
+  }
+
+  p {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    font-size: 18px;
+  }
+}
